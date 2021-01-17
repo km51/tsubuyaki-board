@@ -1,7 +1,7 @@
 <?php
 try{
 // 例外処理
-    $db = new PDO('mysql:dbname=mini_bbs;host=127.0.0.1;charset=utf8', 'root', '_*n7PACtL7qKM#4');
+    $db = new PDO('mysql:dbname=heroku_587425a4d683686;host=us-cdbr-east-03.cleardb.com;charset=utf8', 'b9ff9d69f410c3', 'c2846a98');
     // DBに接続できるようになった。
 
 }catch(PDOException $e){
