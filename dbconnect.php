@@ -8,3 +8,4 @@ try{
   // DBに接続できなかった場合
   print('DB接続エラー：' . $e->getMessage());
 }
+?>
