@@ -16,12 +16,11 @@ if (isset($_SESSION['id']) && $_SESSION['time'] + 3600 > time()){
 
 if (!empty($_POST)){
   if ($_POST['message'] !== ''){
-    $message = $db->prepare('INSERT INTO posts SET member_id=?, message=?, reply_message_id=?, created=now(), photo=?');
+    $message = $db->prepare('INSERT INTO posts SET member_id=?, message=?, reply_message_id=?, created=now()');
     $message->execute(array(
       $member['id'],
       $_POST['message'],
-      NULL,
-      $_
+      NULL
     ));
 // 更新ボタン押下されても、メッセージが追加されないようにするため、メッセージの登録後に、自分自身をもう一度呼び出す
     header('Location: index.php');
