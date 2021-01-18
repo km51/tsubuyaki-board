@@ -2,7 +2,7 @@
 PHPとMySQLの学習成果物として、Twitterクローンを作成しました。
 Udemy講座「PHP+MySQL（MariaDB） Webサーバーサイドプログラミング入門」での作成物を参考に、機能を追加していきます。
 Herokuでデプロイしました。
-https://tsubuyaki-board.herokuapp.com/login.php
+[link](https://tsubuyaki-board.herokuapp.com/login.php){:target="_blank"}
 ## 基本機能
 * 文章の投稿  
 * 他の人の投稿に返信  
