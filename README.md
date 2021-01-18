@@ -1,8 +1,7 @@
 # つぶやき掲示板  
 PHPとMySQLの学習成果物として、Twitterクローンを作成しました。
 Udemy講座「PHP+MySQL（MariaDB） Webサーバーサイドプログラミング入門」での作成物を参考に、機能を追加していきます。  
-Herokuでデプロイしました。[つぶやき掲示板（Heroku）](https://tsubuyaki-board.herokuapp.com/login.php)  
-（メールアドレス：taro@gmail.jp / パスワード：taro）
+Herokuでデプロイしました。[つぶやき掲示板（Heroku）](https://tsubuyaki-board.herokuapp.com/login.php)【登録メールアドレス：taro@gmail.jp / 登録パスワード：taro】
 
 ## 基本機能
 * 文章の投稿  
